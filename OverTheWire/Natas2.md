@@ -1,9 +1,9 @@
 # 📚 Guia de Natas0 📚
 
 ## Conocimientos previos necesarios
-Curiosidad.
-(opcional para un mayor entendimiento)
-Que es un servidor, para que sirve.
+Curiosidad.  
+(opcional para un mayor entendimiento)  
+Que es un servidor, para que sirve.  
 Conceptos como Information disclosure y directory listing
 
 ## Preparacion
