@@ -1,32 +1,19 @@
-# 📚 Writeups y Reportes Formales 📚
+# 📚 Guia de Natas0 📚
 
-## 💀 TryHackMe
+## Conocimientos previos necesarios
+Ninguno, solo curiosidad.  
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo (Writeup) | Ver Informe (PDF) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) | [Descargar PDF](TryHackMe/Pickle_Rick_Informe.pdf) |
-| **Blue** | Fácil | Escaneo de vulnerabilidades, explotación de EternalBlue. | [Ver Solución Aquí](TryHackMe/Blue.md) | [Descargar PDF](TryHackMe/Blue_Informe.pdf) |
----
+## Preparacion
+Iniciamos con el siguiente usuario  
+Username: natas1  
+Password: bandera obtenida de natas 0
 
-## 💀 Hack The Box
+## Resolucion
+Para poder encontrar la bandera para la siguiente room, como en la room anterior debemos ser curiosos y analizar el codigo fuente de la pagina web.  
+Esta vez el clic derecho estara bloqueado si lo intentamos sobre el mensaje que nos muetran en la pagina, desde aqui para analizar el codigo fuente tenemos dos opciones:  
+Clic derecho desde otra parte de la pagina donde no este el mensaje, intentalo, haz clic derecho sobre otra parte de la pagina web, si te deja entonces ya puedes, algunos navegadores no actuan bien con algunas funciones que tienen algunas webs.  
+la conbinacion de teclas que te tenga tu navegador para ir a la opcion "analizar codigo fuente", generalmente es Ctrl + u.  
+Luego de esto la bandera estara comentada en codigo html.
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Legacy** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-
----
-
-## 💀 OverTheWire
-### 💀 Natas
-| Room | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Level 0** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas0.md) |
-| **Level 1** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas1.md) |
-| **Level 2** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas2.md) |
-| **Level 3** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
-| **Level 4** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas4.md) |
-| **Level 5** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
-| **Level 6** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas6.md) |
-| **Level 7** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 8** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 9** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+## Aprendizaje
+Fomenta la curiosidad y el pensamiento como un hacker etico, brinda una herramienta que se siempre se debe tener a mano como pentester.
