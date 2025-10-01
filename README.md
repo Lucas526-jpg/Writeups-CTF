@@ -1,17 +1,9 @@
-# 📚 Writeups de Máquinas y CTFs 📚
+# 📚 Writeups y Reportes Formales 📚
 
-Este repositorio contiene la documentación detallada (writeups) de los desafíos y máquinas que he resuelto en plataformas como TryHackMe y Hack The Box.
-
----
-
-## 💻 TryHackMe
-
-Aquí puedes encontrar las soluciones detalladas paso a paso, desde el reconocimiento hasta la escalada de privilegios.
-
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) |
-
+| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo (Writeup) | Ver Informe (PDF) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) | [Descargar PDF](TryHackMe/Pickle_Rick_Informe.pdf) |
+| **Blue** | Fácil | Escaneo de vulnerabilidades, explotación de EternalBlue. | [Ver Solución Aquí](TryHackMe/Blue.md) | [Descargar PDF](TryHackMe/Blue_Informe.pdf) |
 ---
 
 ## 💀 Hack The Box
