@@ -10,7 +10,7 @@ Aquí puedes encontrar las soluciones detalladas paso a paso, desde el reconocim
 
 | Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
 | :--- | :--- | :--- | :--- |
-| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle-Rick.md) |
+| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) |
 
 ---
 
