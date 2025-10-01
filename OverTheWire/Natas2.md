@@ -1,32 +1,22 @@
-# 📚 Writeups y Reportes Formales 📚
+# 📚 Guia de Natas0 📚
 
-## 💀 TryHackMe
+## Conocimientos previos necesarios
+Curiosidad.
+(opcional para un mayor entendimiento)
+Que es un servidor, para que sirve.
+Conceptos como Information disclosure y directory listing
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo (Writeup) | Ver Informe (PDF) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) | [Descargar PDF](TryHackMe/Pickle_Rick_Informe.pdf) |
-| **Blue** | Fácil | Escaneo de vulnerabilidades, explotación de EternalBlue. | [Ver Solución Aquí](TryHackMe/Blue.md) | [Descargar PDF](TryHackMe/Blue_Informe.pdf) |
----
+## Preparacion
+Iniciamos con el siguiente usuario  
+Username: natas1 2
+Password: bandera obtenida de natas 1
 
-## 💀 Hack The Box
+## Resolucion
+Para poder encontrar la bandera para la siguiente room, como en la room anterior debemos ser curiosos y analizar el codigo fuente de la pagina web, pero a diferencia de las rooms anteriores, esta vez no sera tan facil como analizar el codigo y "bandera encontrada", esta vez hay que leer con cuidado el codigo fuente y ver que informacion se puede obtener.  
+En este caso podemos ver una imagen almacenada en una carpeta llamada files, que nos dice eso?... Que existe una carpeta y podria ser accesible!!
+Entonces en nuestro enlace "http://natas2.natas.labs.overthewire.org" podemos escribir al final "/files" para decirle al navegador que queremos ir a la carpeta files de la pagina natas2, quedaria asi: "http://natas2.natas.labs.overthewire.org/files".  
+Al acceder a esa carpeta veremos dos archivos, al acceder a uno de esos archivos estara la bandera, puedes adividar cual es?
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Legacy** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-
----
-
-## 💀 OverTheWire
-### 💀 Natas
-| Room | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Level 0** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas0.md) |
-| **Level 1** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas1.md) |
-| **Level 2** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas2.md) |
-| **Level 3** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
-| **Level 4** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas4.md) |
-| **Level 5** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
-| **Level 6** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas6.md) |
-| **Level 7** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 8** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 9** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+## Aprendizaje
+Se aprende sobre la importancia de la configuración del servidor web y la "vulnerabilidad" de divulgación de información (Information Disclosure), específicamente a través de la funcionalidad de Listado de Directorios (Directory Listing).  
+En un pentesting real esto podria ser descubierto por herramientas de enumeracion de directorios como gobuster o dirb.
