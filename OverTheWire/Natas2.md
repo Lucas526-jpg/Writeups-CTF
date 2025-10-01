@@ -8,7 +8,7 @@ Conceptos como Information disclosure y directory listing
 
 ## Preparacion
 Iniciamos con el siguiente usuario  
-Username: natas1 2
+Username: natas1  
 Password: bandera obtenida de natas 1
 
 ## Resolucion
