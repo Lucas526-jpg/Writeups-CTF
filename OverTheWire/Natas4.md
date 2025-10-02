@@ -6,7 +6,7 @@ Que es la restricción de acceso basada en la cabecera HTTP Referer.
 
 ## Preparacion
 Iniciamos con el siguiente usuario  
-Username: natas4
+Username: natas4  
 Password: bandera obtenida de natas 3
 
 ## Resolucion
