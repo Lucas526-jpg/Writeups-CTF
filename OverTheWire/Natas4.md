@@ -1,12 +1,13 @@
 # 📚 Guia de Natas 4 📚
 
 ## Conocimientos previos necesarios 
-Que es un archivo Robots.txt y para que sirve.
+Entender como funciona el protocolo http.  
+Que es la restricción de acceso basada en la cabecera HTTP Referer.
 
 ## Preparacion
 Iniciamos con el siguiente usuario  
-Username: natas3
-Password: bandera obtenida de natas 2
+Username: natas4
+Password: bandera obtenida de natas 3
 
 ## Resolucion
 Para poder encontrar la bandera para la siguiente room, como en la room anterior debemos analizar el codigo fuente de la pagina web, la clave esta en un comentario "No more information leaks!! Not even Google will find it this time...", se refiere a que ni google lo encontraria, esto hace referencia al robots.txt, que le dice a un motor de busqueda que paginas se deben mostrar o no.  
