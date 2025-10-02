@@ -1,32 +1,19 @@
-# 📚 Writeups y Reportes Formales 📚
+# 📚 Guia de Natas 6 📚
 
-## 💀 TryHackMe
+## Conocimientos previos necesarios   
+Entender como se enlazan las paginas php.
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo (Writeup) | Ver Informe (PDF) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) | [Descargar PDF](TryHackMe/Pickle_Rick_Informe.pdf) |
-| **Blue** | Fácil | Escaneo de vulnerabilidades, explotación de EternalBlue. | [Ver Solución Aquí](TryHackMe/Blue.md) | [Descargar PDF](TryHackMe/Blue_Informe.pdf) |
----
+## Preparacion
+Iniciamos con el siguiente usuario  
+Username: natas6  
+Password: bandera obtenida de natas 5
 
-## 💀 Hack The Box
+## Resolucion
+Al ingresar a la room, veremos un cuadro donde tendremos que ingresar al codigo, al analizar el codigo fuente a travez del boton que nos brinda la pagina, podremos ver la logica de como se analiza si nuestro codigo ingresado fue el correcto.
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Legacy** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+Al analizar la logica nos daremos cuenta que para verificar que el codigo es el correcto, toma de otra pagina una variable y las compara, en una parte del codigo veremos un archivo php que esta incluido en el index, si accedemos a el encontraremos dicha variable y en ella... nuestro codigo!
 
----
+Al ingresar el codigo almacenado en la variable, podremos obtener nuestra bandera.
 
-## 💀 OverTheWire
-### 💀 Natas
-| Room | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Level 0** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas0.md) |
-| **Level 1** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas1.md) |
-| **Level 2** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas2.md) |
-| **Level 3** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
-| **Level 4** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas4.md) |
-| **Level 5** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
-| **Level 6** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas6.md) |
-| **Level 7** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 8** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 9** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+## Aprendizaje
+Se aprende a que no hay que dejar los datos sensible a simple vista, aunque sean variables, que hay que tomar otro camino para validad informacion.
