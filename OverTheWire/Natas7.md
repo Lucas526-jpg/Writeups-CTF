@@ -1,32 +1,24 @@
-# 📚 Writeups y Reportes Formales 📚
+# 📚 Guia de Natas 7 📚
 
-## 💀 TryHackMe
+## Conocimientos previos necesarios   
+Comandos basicos de escalada de directorios.
+Que es local file inclusion(LFI).
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo (Writeup) | Ver Informe (PDF) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) | [Descargar PDF](TryHackMe/Pickle_Rick_Informe.pdf) |
-| **Blue** | Fácil | Escaneo de vulnerabilidades, explotación de EternalBlue. | [Ver Solución Aquí](TryHackMe/Blue.md) | [Descargar PDF](TryHackMe/Blue_Informe.pdf) |
----
+## Preparacion
+Iniciamos con el siguiente usuario  
+Username: natas7  
+Password: bandera obtenida de natas 6
 
-## 💀 Hack The Box
+## Resolucion
+Al ingresar a la room, veremos una pagina con dos enlace, una que es el inicio y otra que es "sobre nosotros".
 
-| Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Legacy** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+Al analizar el codigo fuente veremos un interesante comentario que nos indica donde esta ubicada la bandera, esta ubicada en otro directorio donde estamos ahora mismo.  
+Para poder llegar a ese directorio tendremos que experimentar con la pagina un poco, al acceder a la pagina "sobre nosotros" o inicio, podemos ver en la url que la pagina en la que estamos se maneja de la forma "page=index.html", para poder movernos por el servidor podemos usar eso a nuestro favor, por ejemplo:
 
----
+page=etc/natas_webpass/natas8, al hacerlo veremos un error, el cual si le prestamos atencion, nos dira donde estamos ubicados!  
+Luego no es mas que movernos por el servidor hasta llegar a la ubicacion donde esta la bandera:
 
-## 💀 OverTheWire
-### 💀 Natas
-| Room | Dificultad | Habilidades Destacadas | Acceso Directo |
-| :--- | :--- | :--- | :--- |
-| **Level 0** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas0.md) |
-| **Level 1** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas1.md) |
-| **Level 2** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas2.md) |
-| **Level 3** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
-| **Level 4** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas4.md) |
-| **Level 5** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
-| **Level 6** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas6.md) |
-| **Level 7** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 8** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
-| **Level 9** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+page=../../../../etc/natas_webpass/natas8
+
+## Aprendizaje
+Este es otro tipo de local file inclusion, el cual debemos tener en cuenta a la hora de realizar una auditoria.
