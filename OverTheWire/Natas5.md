@@ -22,4 +22,4 @@ Esta línea le dice al servidor "estoy logueado". Luego, continuamos con la peti
 
 ## Aprendizaje
 
-Se aprende sobre la vulnerabilidad de falsificación (spoofing) de la cabecera HTTP. Esto me demostró que cualquier lógica de seguridad que dependa de datos enviados por el cliente puede ser fácilmente engañada y saltada. El servidor nunca debe confiar en cabeceras como Referer para conceder acceso, ya que son manipulables.
+Se aprende sobre la vulnerabilidad de falsificación (spoofing) de la coockie HTTP. Esto me demostró que cualquier lógica de seguridad que dependa de datos enviados por el cliente puede ser fácilmente engañada y saltada. El servidor nunca debe confiar en cabeceras como Referer para conceder acceso, ya que son manipulables.
