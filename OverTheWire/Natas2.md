@@ -1,4 +1,4 @@
-# 📚 Guia de Natas0 📚
+# 📚 Guia de Natas 2 📚
 
 ## Conocimientos previos necesarios
 Curiosidad.  
