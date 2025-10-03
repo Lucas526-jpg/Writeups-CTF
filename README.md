@@ -22,8 +22,8 @@
 | :--- | :--- | :--- | :--- |
 | **Level 0** | Fácil | Analisis de codigo fuente. | [Ver Solución Aquí](OverTheWire/Natas0.md) |
 | **Level 1** | Fácil | Analisis de codigo fuente. | [Ver Solución Aquí](OverTheWire/Natas1.md) |
-| **Level 2** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas2.md) |
-| **Level 3** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
+| **Level 2** | Fácil | Analisis de codigo fuente. | [Ver Solución Aquí](OverTheWire/Natas2.md) |
+| **Level 3** | Fácil | Busqueda del robots.txt. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
 | **Level 4** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas4.md) |
 | **Level 5** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
 | **Level 6** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas6.md) |
