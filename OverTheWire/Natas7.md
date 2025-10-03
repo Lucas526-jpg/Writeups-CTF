@@ -1,7 +1,7 @@
 # 📚 Guia de Natas 7 📚
 
 ## Conocimientos previos necesarios   
-Comandos basicos de escalada de directorios.
+Comandos basicos de escalada de directorios.  
 Que es local file inclusion(LFI).
 
 ## Preparacion
