@@ -5,14 +5,13 @@
 | Máquina | Dificultad | Habilidades Destacadas | Acceso Directo (Writeup) | Ver Informe (PDF) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Pickle Rick** | Fácil | Enumeración, inyección de comandos. | [Ver Solución Aquí](TryHackMe/Pickle_Rick.md) | [Descargar PDF](TryHackMe/Pickle_Rick_Informe.pdf) |
-| **Blue** | Fácil | Escaneo de vulnerabilidades, explotación de EternalBlue. | [Ver Solución Aquí](TryHackMe/Blue.md) | [Descargar PDF](TryHackMe/Blue_Informe.pdf) |
 ---
 
 ## 💀 Hack The Box
 
 | Máquina | Dificultad | Habilidades Destacadas | Acceso Directo |
 | :--- | :--- | :--- | :--- |
-| **Legacy** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
+| **Fawn** | Fácil | Enumeración de servicios, fuerza bruta en servicio telnet. | [Ver Solución Aquí](HackTheBox/Fawn.md) | [Descargar PDF](HackTheBox/informe_Fawn_HTB_.pdf) |
 
 ---
 
