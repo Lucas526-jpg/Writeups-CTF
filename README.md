@@ -24,7 +24,7 @@
 | **Level 2** | Fácil | Analisis de subdirectorios | [Ver Solución Aquí](OverTheWire/Natas2.md) |
 | **Level 3** | Fácil | Busqueda del robots.txt. | [Ver Solución Aquí](OverTheWire/Natas3.md) |
 | **Level 4** | Fácil | Spoofing de cabecera http. | [Ver Solución Aquí](OverTheWire/Natas4.md) |
-| **Level 5** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
+| **Level 5** | Fácil | Spoofing de cookie http. | [Ver Solución Aquí](OverTheWire/Natas5.md) |
 | **Level 6** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](OverTheWire/Natas6.md) |
 | **Level 7** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
 | **Level 8** | Fácil | Enumeración SMB, explotación de MS08-067. | [Ver Solución Aquí](HackTheBox/Legacy.md) |
